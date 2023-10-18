@@ -3,7 +3,7 @@ with open('suffixes.txt', 'r') as f:
     suffixes = [line.strip() for line in f]
 
 # Open the gutenberg file and read the words into a list
-with open('uwu.txt', 'r') as f:
+with open('dicFR.txt', 'r') as f:
     words = [line.strip() for line in f]
 
 # Find the words that end with any of the suffixes and add a space between the word and the suffix
